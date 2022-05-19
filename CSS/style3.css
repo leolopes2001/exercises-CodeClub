@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+div{
+    background-color: rgb(0, 255, 242);
+    height: 200px;
+    width: 200px;
+    margin-top: 10px;
+    border: 15px solid red;
+    display: inline-block;
+}

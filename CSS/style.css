@@ -1,0 +1,16 @@
+p {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    text-align: justify;
+    text-transform: lowercase;
+    text-decoration: underline rgb(0, 4, 255);
+}
+h1{
+    text-shadow: 2px 4px 5px purple;
+}

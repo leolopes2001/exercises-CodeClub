@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio 2 HTML</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Cadastro</legend>
+        <form action="" method="post" enctype="multipart/form-data">
+
+            <label for="nome">Nome</label>
+            <br>
+            <input type="text" name="nome" required id="nome">
+            <br>
+            <br>
+
+            <label for="email">Email</label>
+            <br>
+            <input type="email" name="email" required id="email">
+            <br>
+            <br>
+
+            <label for="idade">Idade</label>
+            <br>
+            <input type="number" name="idade" required id="idade" min="12" step="1">
+            <br>
+            <br>
+
+            <label for="data-nascimento">Data de Nascimento</label>
+            <br>
+            <input type="date" name="data-nascimento" id="data-nascimento" required>
+            <br>
+            <br>
+
+            <label for="">Onde você possui conta
+                <br>
+                <label for="">
+                    <input type="checkbox" name="instagram">
+                    Instagram
+                </label>
+
+                <label for="">
+                    <input type="checkbox" name="facebook">
+                    Facebook
+                </label>
+                <label for="">
+                    <input type="checkbox" name="youtube">
+                    YouTube
+                </label>
+            </label>
+
+
+            <br>
+            <br>
+            <label for="sexo">
+                Sexo
+                <br>
+                <input type="radio" name="sexo">
+                Maculino
+                <input type="radio" name="sexo">
+                Feminino
+            </label>
+            <br>
+            <br>
+            <label for="cor-dos-olhos">
+                Cor dos Olhos
+                <input type="color" name="cor-dos-olhos">
+            </label>
+            <br>
+            <br>
+
+            <label for="biografia">Biografia
+                <br>
+                <textarea name="" id="" cols="25" rows="5"></textarea>
+            </label>
+
+            <br>
+            <br>
+            <label>
+                Foto de Perfil
+                <br>
+                <input type="file" name="arquivo" accept="image/*">
+            </label>
+            <br>
+            <br>
+
+            <label>Telefone
+                <br>
+                <input type="tel" name="telefone">
+            </label>
+            <br>
+            <br>
+
+            <label>Link Perfil do Facebook
+                <br>
+                <input type="url" name="url">
+            </label>
+            <br>
+            <br>
+
+            <label>Senha
+                <br>
+                <input type="password" name="senha" required minlength="6" maxlength="8">
+            </label>
+            <br>
+            <br>
+
+            <button type="reset">Limpar</button>
+            <button type="submit">Enviar Dados</button>
+
+
+
+        </form>
+    </fieldset>
+</body>
+
+</html>
